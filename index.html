@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Tree View</h1>
+    <p>
+      Each item in a tree view can have a number of subitems, representing an
+      information hierarchy.
+    </p>
+    <p>To open or close the tree branches, click on the appropriate box(es).</p>
+    <ul id="tree">
+      <li>
+        <span class="box">Front-End Developer</span>
+        <ul class="nested">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JAVASCRIPT</li>
+          <li>
+            <span class="box">Back-End Developer</span>
+            <ul class="nested">
+              <li>NODE JS</li>
+              <li>PYTHON</li>
+              <li>JAVA</li>
+              <li>C#</li>
+              <li>
+                <span class="box">DATABASE</span>
+                <ul class="nested">
+                  <li>MONGODB</li>
+                  <li>SQL</li>
+                  <li>MYSQL</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+  <script src="app.js"></script>
+</html>
